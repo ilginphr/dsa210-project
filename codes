@@ -1,4 +1,4 @@
-# Re-import and generate the final version of the code using uploaded Excel file
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
