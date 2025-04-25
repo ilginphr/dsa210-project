@@ -37,7 +37,8 @@ This project will provide valuable insights into how dietary and exercise habits
 
 ## Findings
 
-- Personal data was collected daily, including weight, caloric intake, burned calories, and water consumption.
+- dsa_project_data.xlsx :
+This file contains one month of self-tracked data, including daily records of weight, caloric intake, burned calories, and water consumption. The data was manually logged using a combination of nutrition tracking apps (Yazio, Diyetkolik, MySu+) and a digital scale for weight measurements.
 - The data was cleaned and enriched (e.g., calculated daily **Caloric Deficit** as a new feature).
 - Exploratory Data Analysis (EDA) was conducted through multiple visualizations.
 - Hypothesis testing was performed using Pearson correlation coefficients and p-values to evaluate statistical significance.
