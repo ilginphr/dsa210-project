@@ -55,10 +55,10 @@ Daily changes in body weight were visualized to observe trends and fluctuations 
 
 ### Scatter Plots
 
-**Caloric Intake vs Weight**  
+**Caloric Intake vs Weight:**  
 Examined the relationship between daily calorie intake and body weight.
 
-**Burned Calories vs Weight**  
+**Burned Calories vs Weight:**  
 Checked whether the number of calories burned affected weight changes.
 
 **Water Consumption vs Weight**  
