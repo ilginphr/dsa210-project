@@ -48,48 +48,48 @@ This project will provide valuable insights into how dietary and exercise habits
 
 ### Line Plot
 
-**Weight Over Time**  
-Daily changes in body weight were visualized to observe trends and fluctuations over time.
+**Weight Over Time:**  
+-Daily changes in body weight were visualized to observe trends and fluctuations over time.
 
 ---
 
 ### Scatter Plots
 
 **Caloric Intake vs Weight:**  
-Examined the relationship between daily calorie intake and body weight.
+-Examined the relationship between daily calorie intake and body weight.
 
 **Burned Calories vs Weight:**  
-Checked whether the number of calories burned affected weight changes.
+-Checked whether the number of calories burned affected weight changes.
 
-**Water Consumption vs Weight**  
-Analyzed the relationship between water intake (liters) and weight.
+**Water Consumption vs Weight:**  
+-Analyzed the relationship between water intake (liters) and weight.
 
-**Caloric Deficit vs Weight**  
-Investigated if greater caloric deficit is associated with lower weight.
+**Caloric Deficit vs Weight:**  
+-Investigated if greater caloric deficit is associated with lower weight.
 
 ---
 
 ### Dual Line Plot
 
-**Caloric Intake vs Burned Calories Over Time**  
-Compared calorie intake and calories burned across days to identify energy balance patterns.
+**Caloric Intake vs Burned Calories Over Time:**  
+-Compared calorie intake and calories burned across days to identify energy balance patterns.
 
 ---
 
 ### Histograms
 
-**Weight Distribution**  
-Showed how weight values were distributed throughout the period.
+**Weight Distribution:**  
+-Showed how weight values were distributed throughout the period.
 
-**Caloric Intake Distribution**  
-Displayed the spread of daily calorie intake values.
+**Caloric Intake Distribution:**  
+-Displayed the spread of daily calorie intake values.
 
-**Burned Calories Distribution**  
-Visualized the distribution of burned calories during the observed timeframe.
+**Burned Calories Distribution:**  
+-Visualized the distribution of burned calories during the observed timeframe.
 
 ---
 
 ### Correlation Heatmap
 
-**Correlation Matrix**  
-Showed the statistical relationships between variables such as intake, deficit, water, and weight.
+**Correlation Matrix:**  
+-Showed the statistical relationships between variables such as intake, deficit, water, and weight.
