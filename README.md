@@ -35,3 +35,44 @@ By the end of this study, the project aims to answer the following questions:
 ### **Conclusion**
 This project will provide valuable insights into how dietary and exercise habits affect weight management. The findings can help individuals optimize their routines for better health outcomes. As data collection progresses, further improvements in methodology and analysis will be explored to refine results and enhance accuracy.
 
+Findings:
+- Personal data was collected daily, including weight, calorie intake, burned calories, and water consumption.
+
+- The data was cleaned and enriched (e.g., calculated daily Caloric Deficit as a new feature).
+
+- Exploratory Data Analysis (EDA) was conducted through various visualizations.
+
+- Hypothesis testing was performed using Pearson correlation coefficients and p-values to examine the relationship between weight and other variables.
+
+Visualizations Used
+The following plots were generated to support the analysis:
+
+Line Plot:
+-Weight Over Time
+
+Scatter Plots:
+-Caloric Intake vs Weight
+(Daily calorie intake and its relationship to body weight were examined.)
+-Burned Calories vs Weight
+(Checked whether burned calories impact daily weight changes.)
+-Water Consumption vs Weight
+(Analyzed if hydration levels correspond to any weight variation.)
+-Caloric Deficit vs Weight
+(Investigated whether a larger deficit leads to lower weight.)
+
+Dual Line Plot:
+-Caloric Intake vs Burned Calories over Time
+(Compared daily intake and calories burned to identify energy balance patterns.)
+
+Histograms:
+-Weight Distribution
+(Visualized how frequently specific weight values occurred.)
+-Caloric Intake Distribution
+(Showed the spread of daily calorie intake levels.)
+-Burned Calories Distribution
+(Displayed how burned calories are distributed across days.)
+
+Correlation Heatmap:
+-Correlation Matrix showing relationships between all variables
+(Evaluated statistical relationships between all variables (e.g., intake, deficit, weight).)
+
