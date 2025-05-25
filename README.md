@@ -19,7 +19,34 @@ To conduct this analysis, data will be collected through the following methods:
 
 ### **Hypothesis Testing**
 - **Null Hypothesis (H0):** There is no significant relationship between caloric intake, burned calories, water consumption, and weight loss.
-- **Alternative Hypothesis (H1):** There is a significant relationship between these factors and weight loss.
+- **Alternative Hypothesis (H1):** There is a significant relationship between these factors and weight loss
+## Machine Learning
+
+To predict weight based on intake, exercise, and hydration:
+
+1. **Features & Target**  
+   - Features: Caloric Intake, Burned Calories, Water Consumption (L), Caloric Deficit  
+   - Target: Weight (kg)
+
+2. **Train–Test Split**  
+   - 80% training, 20% testing (random_state=42)
+
+3. **Models**  
+   - Linear Regression  
+   - Random Forest Regressor
+
+4. **Metrics**  
+   - Mean Squared Error (MSE)  
+   - Coefficient of Determination (R²)
+
+5. **Results**  
+   - Linear Regression → MSE: _X.XXX_, R²: _Y.YYY_  
+   - Random Forest   → MSE: _A.AAA_, R²: _B.BBB_
+
+6. **Interpretation**  
+   - The Random Forest model’s higher R² score indicates it captures nonlinear relationships in the data      more effectively than Linear Regression.  
+   - Both models identify caloric deficit and burned calories as the most important predictors of weight.
+
 
 ### **Expected Outcomes**
 By the end of this study, the project aims to answer the following questions:
@@ -94,3 +121,4 @@ This file contains one month of self-tracked data, including daily records of we
 
 **Correlation Matrix:**  
 -Showed the statistical relationships between variables such as intake, deficit, water, and weight.
+
