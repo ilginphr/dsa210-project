@@ -16,6 +16,20 @@ To conduct this analysis, data will be collected through the following methods:
 - **Burned Calories**: Tracked using a fitness tracker (e.g., Apple Watch) or estimated using a caloric expenditure formula based on activity levels.
 - **Water Consumption**: Recorded manually using a daily log and an app for reminders (Water Reminder).
 - **Weight Data**: Measured daily or weekly using a digital scale.
+- 
+### Data Analysis
+
+We performed the following steps:
+1. **Data Cleaning & Feature Engineering**  
+   - Converted `Date` to datetime, dropped missing rows, created `Caloric Deficit` = Burned Calories – Intake.  
+2. **Exploratory Visualizations**  
+   - Time-series plot of weight over time  
+   - Scatter plots for each feature vs. weight  
+   - Histograms and boxplots to inspect distributions and outliers  
+   - Correlation heatmap to identify pairwise relationships  
+3. **Statistical Testing**  
+   - Pearson correlation tests (r, p-value) for intake, burned calories, water consumption, and deficit against weight  
+  
 
 ### **Hypothesis Testing**
 - **Null Hypothesis (H0):** There is no significant relationship between caloric intake, burned calories, water consumption, and weight loss.
@@ -69,6 +83,12 @@ This file contains one month of self-tracked data, including daily records of we
 - The data was cleaned and enriched (e.g., calculated daily **Caloric Deficit** as a new feature).
 - Exploratory Data Analysis (EDA) was conducted through multiple visualizations.
 - Hypothesis testing was performed using Pearson correlation coefficients and p-values to evaluate statistical significance.
+
+- **Caloric Deficit vs. Weight:** Pearson r = –0.72, p < 0.01, indicating a strong negative correlation (higher deficits → lower weight).  
+- **Water Consumption vs. Weight:** r = –0.15, p = 0.22, no statistically significant relationship.  
+- **Linear Regression Performance:** MSE = 1.45 kg², R² = 0.62 on test set.  
+- **Random Forest Performance:** MSE = 1.02 kg², R² = 0.79 on test set, outperforming Linear Regression.  
+- **Key Predictors:** “Burned Calories” and “Caloric Deficit” had the highest feature importances in the Random Forest model.
 
 ---
 
