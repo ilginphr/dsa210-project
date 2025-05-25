@@ -87,16 +87,16 @@ This file contains one month of self-tracked data, including daily records of we
 - Exploratory Data Analysis (EDA) was conducted through multiple visualizations.
 - Hypothesis testing was performed using Pearson correlation coefficients and p-values to evaluate statistical significance.
 
-- **Caloric Deficit vs. Weight:** Pearson r = –0.72, p < 0.01, indicating a strong negative correlation (higher deficits → lower weight).  
-- **Water Consumption vs. Weight:** r = –0.15, p = 0.22, no statistically significant relationship.  
-- **Linear Regression Performance:** MSE = 1.45 kg², R² = 0.62 on test set.  
-- **Random Forest Performance:** MSE = 1.02 kg², R² = 0.79 on test set, outperforming Linear Regression. - **Caloric Intake vs. Weight:** r = -0.45, p = 0.03 → moderate negative correlation  
-- **Burned Calories vs. Weight:** r = -0.67, p < 0.01 → strong negative correlation  
+
+- **Caloric Intake vs. Weight:** Pearson r = –0.45, p = 0.03 → moderate negative correlation  
+- **Burned Calories vs. Weight:** Pearson r = –0.67, p < 0.01 → strong negative correlation  
+- **Water Consumption vs. Weight:** Pearson r = –0.15, p = 0.22 → no statistically significant relationship  
+- **Caloric Deficit vs. Weight:** Pearson r = –0.72, p < 0.01 → very strong negative correlation  
+
 - **Linear Regression (test set):** MSE = 1.45 kg², R² = 0.62  
 - **Random Forest (test set):** MSE = 1.02 kg², R² = 0.79 → outperforms Linear Regression  
-- **Key Predictors:** Burned Calories and Caloric Deficit had the highest feature importances  
-- **Key Predictors:** “Burned Calories” and “Caloric Deficit” had the highest feature importances in the Random Forest model.
 
+- **Key Predictors:** Burned Calories and Caloric Deficit had the highest feature importances in the Random Forest model.
 ---
 
 ## Visualizations Used
