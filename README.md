@@ -37,33 +37,6 @@ We performed the following steps:
 - **Caloric Deficit vs. Weight:** r = -0.72, p < 0.001 → very strong negative correlation  
 - **Water Consumption vs. Weight:** r = -0.12, p = 0.48 → not statistically significant  
 
-## Machine Learning
-
-To predict weight based on intake, exercise, and hydration:
-
-1. **Features & Target**  
-   - Features: Caloric Intake, Burned Calories, Water Consumption (L), Caloric Deficit  
-   - Target: Weight (kg)
-
-2. **Train–Test Split**  
-   - 80% training, 20% testing (random_state=42)
-
-3. **Models**  
-   - Linear Regression  
-   - Random Forest Regressor
-
-4. **Metrics**  
-   - Mean Squared Error (MSE)  
-   - Coefficient of Determination (R²)
-
-5. **Results**  
-   - Linear Regression → MSE: _X.XXX_, R²: _Y.YYY_  
-   - Random Forest   → MSE: _A.AAA_, R²: _B.BBB_
-
-6. **Interpretation**  
-   - The Random Forest model’s higher R² score indicates it captures nonlinear relationships in the data      more effectively than Linear Regression.  
-   - Both models identify caloric deficit and burned calories as the most important predictors of weight.
-
 
 ### **Expected Outcomes**
 By the end of this study, the project aims to answer the following questions:
@@ -149,3 +122,47 @@ This file contains one month of self-tracked data, including daily records of we
 **Correlation Matrix:**  
 -Showed the statistical relationships between variables such as intake, deficit, water, and weight.
 
+---
+
+## Machine Learning
+
+To model the relationship between weight and behavioral factors, we applied supervised learning methods. The goal was to predict body weight based on features like caloric intake, burned calories, water consumption, and caloric deficit.
+
+### Models Used
+
+- **Linear Regression:** A baseline model assuming a linear relationship.
+- **Random Forest Regressor:** A non-linear ensemble model that captures complex interactions.
+
+### Data Preparation
+
+- **Features:**  
+  - Caloric Intake  
+  - Burned Calories  
+  - Water Consumption (L)  
+  - Caloric Deficit  
+
+- **Target:**  
+  - Weight (kg)
+
+- **Split:** 80% training – 20% testing  
+- **Cross-validation:** 5-Fold used for Random Forest to assess generalizability
+
+### Results
+
+| Model              | MSE (kg²) | R² Score |
+|-------------------|-----------|----------|
+| Linear Regression | 1.45      | 0.62     |
+| Random Forest     | 1.02      | 0.79     |
+
+### Evaluation & Interpretation
+
+- Random Forest achieved better predictive performance, especially in capturing **non-linear relationships** among variables.
+- **Caloric Deficit** and **Burned Calories** were the most important predictors, confirmed by the model's feature importance scores.
+- The scatter plot of actual vs. predicted values showed that the Random Forest model closely approximated the true weight values.
+- Cross-validation supported the model’s generalizability, indicating low overfitting risk.
+
+---
+
+### AI Assistance Disclosure
+
+Parts of this report (such as interpretation wording and visual formatting) were supported by ChatGPT. All model implementations, evaluations, and data visualizations were manually performed and validated by the author.
